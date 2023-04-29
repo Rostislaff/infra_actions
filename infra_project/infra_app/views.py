@@ -2,7 +2,7 @@ from django.http import HttpResponse
 
 
 def index(request):
-    return HttpResponse('У меня получилось! Даже несмотря на то, что вы не сказали про элоухост!')
+    return HttpResponse('У меня получилось c на allowhost!')
 
 
 def second_page(request):
